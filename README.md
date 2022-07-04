@@ -5,7 +5,8 @@
 
 ### Flag of the United States
 
-![Screen Shot 2022-07-05 at 1 44 56 AM](https://user-images.githubusercontent.com/60959924/177194159-86d625f3-de1b-4b98-b4e7-ca5b1085d6d1.png)
+![Screen Shot 2022-07-05 at 1 45 31 AM](https://user-images.githubusercontent.com/60959924/177194219-8496fc83-088c-48f4-ae20-7ca7ae45a2bb.png)
+
 
 ### Apple's Photo App Icon
 

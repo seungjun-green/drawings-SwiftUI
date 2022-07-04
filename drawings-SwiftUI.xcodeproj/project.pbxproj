@@ -11,6 +11,8 @@
 		C0AD11BD28734B3B001A52DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11BC28734B3B001A52DC /* ContentView.swift */; };
 		C0AD11BF28734B3F001A52DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AD11BE28734B3F001A52DC /* Assets.xcassets */; };
 		C0AD11C228734B3F001A52DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AD11C128734B3F001A52DC /* Preview Assets.xcassets */; };
+		C0AD11CC28734C19001A52DC /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11CB28734C19001A52DC /* CustomColors.swift */; };
+		C0AD11CE28734C2E001A52DC /* PhotoAppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11CD28734C2E001A52DC /* PhotoAppIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C0AD11BC28734B3B001A52DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0AD11BE28734B3F001A52DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0AD11C128734B3F001A52DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0AD11CB28734C19001A52DC /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		C0AD11CD28734C2E001A52DC /* PhotoAppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAppIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C0AD11BA28734B3B001A52DC /* drawings_SwiftUIApp.swift */,
 				C0AD11BC28734B3B001A52DC /* ContentView.swift */,
+				C0AD11CA28734BF1001A52DC /* PhotoAppIcon */,
+				C0AD11C828734B4B001A52DC /* Flag of the United States */,
 				C0AD11BE28734B3F001A52DC /* Assets.xcassets */,
 				C0AD11C028734B3F001A52DC /* Preview Content */,
 			);
@@ -65,6 +71,22 @@
 				C0AD11C128734B3F001A52DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0AD11C828734B4B001A52DC /* Flag of the United States */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Flag of the United States";
+			sourceTree = "<group>";
+		};
+		C0AD11CA28734BF1001A52DC /* PhotoAppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD11CB28734C19001A52DC /* CustomColors.swift */,
+				C0AD11CD28734C2E001A52DC /* PhotoAppIcon.swift */,
+			);
+			path = PhotoAppIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0AD11BD28734B3B001A52DC /* ContentView.swift in Sources */,
+				C0AD11CE28734C2E001A52DC /* PhotoAppIcon.swift in Sources */,
+				C0AD11CC28734C19001A52DC /* CustomColors.swift in Sources */,
 				C0AD11BB28734B3B001A52DC /* drawings_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

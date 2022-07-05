@@ -17,6 +17,8 @@
 		C0AD11D328734D36001A52DC /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11D028734D36001A52DC /* Stars.swift */; };
 		C0AD11D428734D36001A52DC /* Stripes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11D128734D36001A52DC /* Stripes.swift */; };
 		C0AD11D628734D56001A52DC /* FlagOfTheUnitedStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11D528734D55001A52DC /* FlagOfTheUnitedStates.swift */; };
+		C0D5C2BF28745DA100B4C628 /* GoogleLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D5C2BE28745DA100B4C628 /* GoogleLogo.swift */; };
+		C0D5C2C128745DC800B4C628 /* GoogleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D5C2C028745DC800B4C628 /* GoogleColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		C0AD11D028734D36001A52DC /* Stars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
 		C0AD11D128734D36001A52DC /* Stripes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stripes.swift; sourceTree = "<group>"; };
 		C0AD11D528734D55001A52DC /* FlagOfTheUnitedStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagOfTheUnitedStates.swift; sourceTree = "<group>"; };
+		C0D5C2BE28745DA100B4C628 /* GoogleLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLogo.swift; sourceTree = "<group>"; };
+		C0D5C2C028745DC800B4C628 /* GoogleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				C0AD11BA28734B3B001A52DC /* drawings_SwiftUIApp.swift */,
 				C0AD11BC28734B3B001A52DC /* ContentView.swift */,
 				C0AD11CB28734C19001A52DC /* CustomColors.swift */,
+				C0D5C2BD28745D8D00B4C628 /* GoogleLogo */,
 				C0AD11CA28734BF1001A52DC /* PhotoAppIcon */,
 				C0AD11C828734B4B001A52DC /* Flag of the United States */,
 				C0AD11BE28734B3F001A52DC /* Assets.xcassets */,
@@ -99,6 +104,15 @@
 				C0AD11CD28734C2E001A52DC /* PhotoAppIcon.swift */,
 			);
 			path = PhotoAppIcon;
+			sourceTree = "<group>";
+		};
+		C0D5C2BD28745D8D00B4C628 /* GoogleLogo */ = {
+			isa = PBXGroup;
+			children = (
+				C0D5C2BE28745DA100B4C628 /* GoogleLogo.swift */,
+				C0D5C2C028745DC800B4C628 /* GoogleColors.swift */,
+			);
+			path = GoogleLogo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +187,10 @@
 			files = (
 				C0AD11BD28734B3B001A52DC /* ContentView.swift in Sources */,
 				C0AD11D428734D36001A52DC /* Stripes.swift in Sources */,
+				C0D5C2C128745DC800B4C628 /* GoogleColors.swift in Sources */,
 				C0AD11D328734D36001A52DC /* Stars.swift in Sources */,
 				C0AD11D628734D56001A52DC /* FlagOfTheUnitedStates.swift in Sources */,
+				C0D5C2BF28745DA100B4C628 /* GoogleLogo.swift in Sources */,
 				C0AD11D228734D36001A52DC /* BlueField.swift in Sources */,
 				C0AD11CE28734C2E001A52DC /* PhotoAppIcon.swift in Sources */,
 				C0AD11CC28734C19001A52DC /* CustomColors.swift in Sources */,

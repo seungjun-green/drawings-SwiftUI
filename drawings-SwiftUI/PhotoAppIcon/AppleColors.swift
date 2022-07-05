@@ -1,8 +1,8 @@
 //
-//  CustomColors.swift
-//  photoAppIcon
+//  AppleColors.swift
+//  drawings-SwiftUI
 //
-//  Created by SeungJun Lee on 7/4/22.
+//  Created by SeungJun Lee on 7/5/22.
 //
 
 import Foundation
@@ -40,15 +40,5 @@ extension ShapeStyle where Self == Color {
     
     static var appleYellow: Color {
         Color(red: 242/255, green: 227/255, blue: 40/255)
-    }
-    
-    
-    
-    static var americanBlue: Color {
-        Color(red: 60/255, green: 59/255, blue: 110/255)
-    }
-    
-    static var americanRed: Color {
-        Color(red: 178/255, green: 34/255, blue: 52/255)
     }
 }

@@ -18,7 +18,7 @@
 		C0AD11D428734D36001A52DC /* Stripes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11D128734D36001A52DC /* Stripes.swift */; };
 		C0AD11D628734D56001A52DC /* FlagOfTheUnitedStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11D528734D55001A52DC /* FlagOfTheUnitedStates.swift */; };
 		C0D5C2BF28745DA100B4C628 /* GoogleLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D5C2BE28745DA100B4C628 /* GoogleLogo.swift */; };
-		C0D5C2C128745DC800B4C628 /* GoogleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D5C2C028745DC800B4C628 /* GoogleColors.swift */; };
+		C0D5C2C328745E5E00B4C628 /* GoogleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D5C2C228745E5E00B4C628 /* GoogleColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 		C0AD11D128734D36001A52DC /* Stripes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stripes.swift; sourceTree = "<group>"; };
 		C0AD11D528734D55001A52DC /* FlagOfTheUnitedStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagOfTheUnitedStates.swift; sourceTree = "<group>"; };
 		C0D5C2BE28745DA100B4C628 /* GoogleLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLogo.swift; sourceTree = "<group>"; };
-		C0D5C2C028745DC800B4C628 /* GoogleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleColors.swift; sourceTree = "<group>"; };
+		C0D5C2C228745E5E00B4C628 /* GoogleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D5C2BE28745DA100B4C628 /* GoogleLogo.swift */,
-				C0D5C2C028745DC800B4C628 /* GoogleColors.swift */,
+				C0D5C2C228745E5E00B4C628 /* GoogleColors.swift */,
 			);
 			path = GoogleLogo;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 			files = (
 				C0AD11BD28734B3B001A52DC /* ContentView.swift in Sources */,
 				C0AD11D428734D36001A52DC /* Stripes.swift in Sources */,
-				C0D5C2C128745DC800B4C628 /* GoogleColors.swift in Sources */,
+				C0D5C2C328745E5E00B4C628 /* GoogleColors.swift in Sources */,
 				C0AD11D328734D36001A52DC /* Stars.swift in Sources */,
 				C0AD11D628734D56001A52DC /* FlagOfTheUnitedStates.swift in Sources */,
 				C0D5C2BF28745DA100B4C628 /* GoogleLogo.swift in Sources */,

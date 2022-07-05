@@ -1,7 +1,7 @@
 # drawings-SwiftUI
 
 
-## This is a Xcode project which is collection of drwaings drawn with SwiftUI:
+## Collection of drwaings drawn with SwiftUI:
 
 ### Flag of the United States
 
@@ -16,3 +16,9 @@
 
 ![Screen Shot 2022-07-05 at 1 42 56 AM](https://user-images.githubusercontent.com/60959924/177193935-9114dd25-22f8-44a8-9084-15ea3f1b27bb.png)
 
+
+### Google logo
+
+[code](https://github.com/seungjun-green/drawings-SwiftUI/tree/main/drawings-SwiftUI/GoogleLogo)
+
+<img width="476" alt="Screen Shot 2022-07-05 at 9 11 31 PM" src="https://user-images.githubusercontent.com/60959924/177324399-13063c4a-3ceb-441e-b0b2-6384a55bacdf.png">

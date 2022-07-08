@@ -17,6 +17,7 @@
 		C0AD11D328734D36001A52DC /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11D028734D36001A52DC /* Stars.swift */; };
 		C0AD11D428734D36001A52DC /* Stripes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11D128734D36001A52DC /* Stripes.swift */; };
 		C0AD11D628734D56001A52DC /* FlagOfTheUnitedStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11D528734D55001A52DC /* FlagOfTheUnitedStates.swift */; };
+		C0CEE7952877D6B300C7F148 /* RotatingPropeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEE7942877D6B300C7F148 /* RotatingPropeller.swift */; };
 		C0D5C2BF28745DA100B4C628 /* GoogleLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D5C2BE28745DA100B4C628 /* GoogleLogo.swift */; };
 		C0D5C2C328745E5E00B4C628 /* GoogleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D5C2C228745E5E00B4C628 /* GoogleColors.swift */; };
 		C0D5C2C528745EDC00B4C628 /* AppleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D5C2C428745EDC00B4C628 /* AppleColors.swift */; };
@@ -34,6 +35,7 @@
 		C0AD11D028734D36001A52DC /* Stars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
 		C0AD11D128734D36001A52DC /* Stripes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stripes.swift; sourceTree = "<group>"; };
 		C0AD11D528734D55001A52DC /* FlagOfTheUnitedStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagOfTheUnitedStates.swift; sourceTree = "<group>"; };
+		C0CEE7942877D6B300C7F148 /* RotatingPropeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingPropeller.swift; sourceTree = "<group>"; };
 		C0D5C2BE28745DA100B4C628 /* GoogleLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLogo.swift; sourceTree = "<group>"; };
 		C0D5C2C228745E5E00B4C628 /* GoogleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleColors.swift; sourceTree = "<group>"; };
 		C0D5C2C428745EDC00B4C628 /* AppleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleColors.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				C0AD11BA28734B3B001A52DC /* drawings_SwiftUIApp.swift */,
 				C0AD11BC28734B3B001A52DC /* ContentView.swift */,
+				C0CEE7932877D68F00C7F148 /* Rotating Propeller */,
 				C0D5C2BD28745D8D00B4C628 /* GoogleLogo */,
 				C0AD11CA28734BF1001A52DC /* PhotoAppIcon */,
 				C0AD11C828734B4B001A52DC /* Flag of the United States */,
@@ -107,6 +110,14 @@
 				C0D5C2C428745EDC00B4C628 /* AppleColors.swift */,
 			);
 			path = PhotoAppIcon;
+			sourceTree = "<group>";
+		};
+		C0CEE7932877D68F00C7F148 /* Rotating Propeller */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEE7942877D6B300C7F148 /* RotatingPropeller.swift */,
+			);
+			path = "Rotating Propeller";
 			sourceTree = "<group>";
 		};
 		C0D5C2BD28745D8D00B4C628 /* GoogleLogo */ = {
@@ -199,6 +210,7 @@
 				C0AD11CC28734C19001A52DC /* USColors.swift in Sources */,
 				C0AD11BB28734B3B001A52DC /* drawings_SwiftUIApp.swift in Sources */,
 				C0D5C2C528745EDC00B4C628 /* AppleColors.swift in Sources */,
+				C0CEE7952877D6B300C7F148 /* RotatingPropeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

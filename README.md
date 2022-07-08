@@ -7,7 +7,7 @@
 
 [code](https://github.com/seungjun-green/drawings-SwiftUI/tree/main/drawings-SwiftUI/Rotating%20Propeller)
 
-https://user-images.githubusercontent.com/60959924/177910562-416772bf-3343-4b7f-8e14-1378c3fa0bd8.mp4
+![Simulator_Screen_Recording_-_iPhone_13_Pro_-_2022-07-08_at_12_20_20_AdobeExpress](https://user-images.githubusercontent.com/60959924/177910695-c5051642-cabf-4ef6-874f-d0c2bf23e822.gif)
 
 ### Flag of the United States
 

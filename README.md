@@ -7,6 +7,8 @@
 
 [code](https://github.com/seungjun-green/drawings-SwiftUI/tree/main/drawings-SwiftUI/Rotating%20Propeller)
 
+https://user-images.githubusercontent.com/60959924/177910562-416772bf-3343-4b7f-8e14-1378c3fa0bd8.mp4
+
 ### Flag of the United States
 
 [code](https://github.com/seungjun-green/drawings-SwiftUI/tree/main/drawings-SwiftUI/Flag%20of%20the%20United%20States)

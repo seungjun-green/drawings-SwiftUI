@@ -3,6 +3,7 @@
 
 ## Collection of drwaings drawn with SwiftUI:
 
+
 ### Rotating Propeller
 
 [code](https://github.com/seungjun-green/drawings-SwiftUI/tree/main/drawings-SwiftUI/Rotating%20Propeller)
@@ -35,6 +36,12 @@ https://user-images.githubusercontent.com/60959924/177911330-f2a17f5a-c66b-4d6b-
 [code](https://github.com/seungjun-green/drawings-SwiftUI/tree/main/drawings-SwiftUI/Warmhole)
 
 ![Screen Shot 2022-07-12 at 5 53 11 PM](https://user-images.githubusercontent.com/60959924/178450988-f800d71a-53c6-4256-bdc4-bdb5ff62ec11.png)
+
+### Shiny Doge Animation
+
+[code](https://github.com/seungjun-green/drawings-SwiftUI/blob/main/drawings-SwiftUI/ShinyDoge/ShinyDoge.swift)
+
+![Simulator Screen Shot - iPhone 13 Pro - 2022-07-15 at 17 23 52](https://user-images.githubusercontent.com/60959924/179184436-5a0186b0-e06a-419d-bf7f-571ab89f5dae.png)
 
 
 

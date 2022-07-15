@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Warmhole: View {
+struct Wormhole: View {
     let maxSize: CGFloat = 100 //radius of the biggest circle of the sphere
     let smallest = CGFloat(10) //radius of the smallest circle of the warmhole
     let counts = 50 //counts have to be even value always

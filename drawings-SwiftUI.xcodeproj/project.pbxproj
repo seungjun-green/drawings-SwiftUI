@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C0386897287D60EB0062DD14 /* Wormhole.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0386896287D60EB0062DD14 /* Wormhole.swift */; };
+		C038689B28815A8A0062DD14 /* ShinyDoge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038689A28815A8A0062DD14 /* ShinyDoge.swift */; };
 		C0AD11BB28734B3B001A52DC /* drawings_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11BA28734B3B001A52DC /* drawings_SwiftUIApp.swift */; };
 		C0AD11BD28734B3B001A52DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11BC28734B3B001A52DC /* ContentView.swift */; };
 		C0AD11BF28734B3F001A52DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AD11BE28734B3F001A52DC /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		C0386896287D60EB0062DD14 /* Wormhole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wormhole.swift; sourceTree = "<group>"; };
+		C038689A28815A8A0062DD14 /* ShinyDoge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyDoge.swift; sourceTree = "<group>"; };
 		C0AD11B728734B3B001A52DC /* drawings-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drawings-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AD11BA28734B3B001A52DC /* drawings_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawings_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C0AD11BC28734B3B001A52DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 			path = Wormhole;
 			sourceTree = "<group>";
 		};
+		C038689C28815B270062DD14 /* ShinyDoge */ = {
+			isa = PBXGroup;
+			children = (
+				C038689A28815A8A0062DD14 /* ShinyDoge.swift */,
+			);
+			path = ShinyDoge;
+			sourceTree = "<group>";
+		};
 		C0AD11AE28734B3B001A52DC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 			children = (
 				C0AD11BA28734B3B001A52DC /* drawings_SwiftUIApp.swift */,
 				C0AD11BC28734B3B001A52DC /* ContentView.swift */,
+				C038689C28815B270062DD14 /* ShinyDoge */,
 				C0386895287D60DF0062DD14 /* Wormhole */,
 				C0CEE7932877D68F00C7F148 /* Rotating Propeller */,
 				C0D5C2BD28745D8D00B4C628 /* GoogleLogo */,
@@ -222,6 +233,7 @@
 				C0AD11CC28734C19001A52DC /* USColors.swift in Sources */,
 				C0AD11BB28734B3B001A52DC /* drawings_SwiftUIApp.swift in Sources */,
 				C0D5C2C528745EDC00B4C628 /* AppleColors.swift in Sources */,
+				C038689B28815A8A0062DD14 /* ShinyDoge.swift in Sources */,
 				C0CEE7952877D6B300C7F148 /* RotatingPropeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

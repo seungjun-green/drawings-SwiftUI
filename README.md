@@ -41,7 +41,6 @@ https://user-images.githubusercontent.com/60959924/177911330-f2a17f5a-c66b-4d6b-
 
 [code](https://github.com/seungjun-green/drawings-SwiftUI/blob/main/drawings-SwiftUI/ShinyDoge/ShinyDoge.swift)
 
-![Simulator Screen Shot - iPhone 13 Pro - 2022-07-15 at 17 23 52](https://user-images.githubusercontent.com/60959924/179184436-5a0186b0-e06a-419d-bf7f-571ab89f5dae.png)
-
+![Screen Shot 2022-07-15 at 5 28 08 PM](https://user-images.githubusercontent.com/60959924/179184687-f441498c-1dce-490a-bd0b-38b9571136c0.png)
 
 

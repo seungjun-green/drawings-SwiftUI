@@ -26,7 +26,7 @@ struct ShinyDoge: View {
     
     var body: some View {
         TimelineView(.periodic(from: .now, by: 0.5)) { dd in
-          Image("doge-1").resizable().frame(width: 80, height: 80).offset(x: angle, y: 0)
+          Image("doge").resizable().frame(width: 80, height: 80).offset(x: angle, y: 0)
         }
                      
         TimelineView(.animation) { _ in
@@ -38,13 +38,13 @@ struct ShinyDoge: View {
                         
                     }
                     
-                    Image("doge-1").resizable().frame(width: 80, height: 80)
+                    Image("doge").resizable().frame(width: 80, height: 80)
                 }
                 
             }
         
         TimelineView(.periodic(from: .now, by: 0.5)) { dd in
-          Image("doge-1").resizable().frame(width: 80, height: 80).offset(x: -angle, y: 0)
+          Image("doge").resizable().frame(width: 80, height: 80).offset(x: -angle, y: 0)
         }
     }
 }

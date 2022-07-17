@@ -14,6 +14,7 @@ struct AbstractArt1: View {
             
             Stars()
             
+            
             CirclePart().rotationEffect(.degrees(-90)).offset(x: 0, y: 300)
             
             Metros()

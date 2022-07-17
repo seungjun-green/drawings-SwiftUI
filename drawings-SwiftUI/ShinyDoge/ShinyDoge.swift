@@ -49,7 +49,7 @@ struct ShinyDoge: View {
     }
 }
 
-extension View{
+extension View {
     func glowEffect_1(color: Color, radius: CGFloat) -> some View {
         self
             .overlay(self.blur(radius: 4))

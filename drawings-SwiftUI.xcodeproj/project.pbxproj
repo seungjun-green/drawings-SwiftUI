@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C009C6E32883F9390022A2C0 /* AbstractArt1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C009C6E22883F9390022A2C0 /* AbstractArt1.swift */; };
 		C0386897287D60EB0062DD14 /* Wormhole.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0386896287D60EB0062DD14 /* Wormhole.swift */; };
 		C038689B28815A8A0062DD14 /* ShinyDoge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038689A28815A8A0062DD14 /* ShinyDoge.swift */; };
 		C0AD11BB28734B3B001A52DC /* drawings_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD11BA28734B3B001A52DC /* drawings_SwiftUIApp.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C009C6E22883F9390022A2C0 /* AbstractArt1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractArt1.swift; sourceTree = "<group>"; };
 		C0386896287D60EB0062DD14 /* Wormhole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wormhole.swift; sourceTree = "<group>"; };
 		C038689A28815A8A0062DD14 /* ShinyDoge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyDoge.swift; sourceTree = "<group>"; };
 		C0AD11B728734B3B001A52DC /* drawings-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "drawings-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C009C6E12883F91B0022A2C0 /* AbstarctArt1 */ = {
+			isa = PBXGroup;
+			children = (
+				C009C6E22883F9390022A2C0 /* AbstractArt1.swift */,
+			);
+			path = AbstarctArt1;
+			sourceTree = "<group>";
+		};
 		C0386895287D60DF0062DD14 /* Wormhole */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 			children = (
 				C0AD11BA28734B3B001A52DC /* drawings_SwiftUIApp.swift */,
 				C0AD11BC28734B3B001A52DC /* ContentView.swift */,
+				C009C6E12883F91B0022A2C0 /* AbstarctArt1 */,
 				C038689C28815B270062DD14 /* ShinyDoge */,
 				C0386895287D60DF0062DD14 /* Wormhole */,
 				C0CEE7932877D68F00C7F148 /* Rotating Propeller */,
@@ -227,6 +238,7 @@
 				C0386897287D60EB0062DD14 /* Wormhole.swift in Sources */,
 				C0AD11D328734D36001A52DC /* Stars.swift in Sources */,
 				C0AD11D628734D56001A52DC /* FlagOfTheUnitedStates.swift in Sources */,
+				C009C6E32883F9390022A2C0 /* AbstractArt1.swift in Sources */,
 				C0D5C2BF28745DA100B4C628 /* GoogleLogo.swift in Sources */,
 				C0AD11D228734D36001A52DC /* BlueField.swift in Sources */,
 				C0AD11CE28734C2E001A52DC /* PhotoAppIcon.swift in Sources */,

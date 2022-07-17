@@ -3,6 +3,11 @@
 
 ## Collection of drwaings drawn with SwiftUI:
 
+### Abstract Art1
+
+[code] (https://github.com/seungjun-green/drawings-SwiftUI/blob/main/drawings-SwiftUI/AbstarctArt1/AbstractArt1.swift)
+
+<img width="833" alt="Screen Shot 2022-07-17 at 5 08 57 PM" src="https://user-images.githubusercontent.com/60959924/179389870-3bf2b081-80f4-4386-9b42-4b4938317781.png">
 
 ### Rotating Propeller
 

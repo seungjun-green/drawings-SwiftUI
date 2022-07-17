@@ -14,7 +14,6 @@ struct AbstractArt1: View {
             
             Stars()
             
-            
             CirclePart().rotationEffect(.degrees(-90)).offset(x: 0, y: 300)
             
             Metros()
@@ -24,6 +23,8 @@ struct AbstractArt1: View {
 
     }
 }
+
+///  Stars
 
 struct Stars: View {
     let a: Double = -200
@@ -38,7 +39,53 @@ struct Stars: View {
 }
 
 
+/// Ciricle Part
+struct CirclePart: View {
+    var body: some View {
+        ZStack{
+            
+            Circle().stroke(LinearGradient(gradient: Gradient(colors: [.pink, .orange, .white]), startPoint: .top, endPoint: .bottom),lineWidth: 6)
+                .frame(width: 800, height: 800)
+            
+            Circle().stroke(LinearGradient(gradient: Gradient(colors: [.pink, .red, .orange, .yellow, .white]), startPoint: .top, endPoint: .bottom),lineWidth: 6)
+                .frame(width: 780, height: 780)
+            
+            Circle().stroke(LinearGradient(gradient: Gradient(colors: [.orange, .white, .yellow, .orange]), startPoint: .top, endPoint: .bottom),lineWidth: 6)
+                .frame(width: 700, height: 700)
+            
+            
+            Circle().stroke(LinearGradient(gradient: Gradient(colors: [.red, .pink, .red]), startPoint: .top, endPoint: .bottom),lineWidth: 25)
+                .frame(width: 640, height: 640)
+        }
+    }
+}
+/// Metro
 
+struct Metros: View {
+    var body: some View {
+        VStack{
+            Metro().fill(LinearGradient(gradient: Gradient(colors: [.white, .red]), startPoint: .trailing, endPoint: .leading)).frame(width: 200, height: 10).offset(x: 50, y: 80)
+            
+            Metro().fill(LinearGradient(gradient: Gradient(colors: [.white, .red]), startPoint: .trailing, endPoint: .leading)).frame(width: 300, height: 10).offset(x: -100, y: 100)
+            
+            Metro().fill(LinearGradient(gradient: Gradient(colors: [.white, .red]), startPoint: .trailing, endPoint: .leading)).frame(width: 190, height: 10).offset(x: -400, y: -230)
+            
+        }
+    }
+}
+
+struct Metro: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        path.move(to: CGPoint(x: 0, y: rect.midY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.midY-2))
+        path.addArc(center: CGPoint(x: rect.maxX, y: rect.midY), radius: 2, startAngle: .degrees(-90), endAngle: .degrees(90), clockwise: false)
+        path.addLine(to: CGPoint(x: 0, y: rect.midY))
+        return path
+    }
+}
+
+/// Ground
 struct Ground: View {
     var body: some View {
         
@@ -70,69 +117,9 @@ struct Ground: View {
                 Spacer()
                 TheGround().fill(.darkPurple).frame(width: 1400, height: 50)
             }.ignoresSafeArea()
-            
-            
-            
-            
-           
-            
-        }
-        
-    }
-}
-struct Metros: View {
-    var body: some View {
-        VStack{
-            Metro().fill(LinearGradient(gradient: Gradient(colors: [.white, .red]), startPoint: .trailing, endPoint: .leading)).frame(width: 200, height: 10).offset(x: 50, y: 80)
-            
-            Metro().fill(LinearGradient(gradient: Gradient(colors: [.white, .red]), startPoint: .trailing, endPoint: .leading)).frame(width: 300, height: 10).offset(x: -100, y: 100)
-            
-            Metro().fill(LinearGradient(gradient: Gradient(colors: [.white, .red]), startPoint: .trailing, endPoint: .leading)).frame(width: 190, height: 10).offset(x: -400, y: -230)
-            
         }
     }
 }
-struct CirclePart: View {
-    var body: some View {
-        ZStack{
-            
-            Circle().stroke(LinearGradient(gradient: Gradient(colors: [.pink, .orange, .white]), startPoint: .top, endPoint: .bottom),lineWidth: 6)
-                .frame(width: 800, height: 800)
-            
-            Circle().stroke(LinearGradient(gradient: Gradient(colors: [.pink, .red, .orange, .yellow, .white]), startPoint: .top, endPoint: .bottom),lineWidth: 6)
-                .frame(width: 780, height: 780)
-            
-            Circle().stroke(LinearGradient(gradient: Gradient(colors: [.orange, .white, .yellow, .orange]), startPoint: .top, endPoint: .bottom),lineWidth: 6)
-                .frame(width: 700, height: 700)
-            
-            
-            Circle().stroke(LinearGradient(gradient: Gradient(colors: [.red, .pink, .red]), startPoint: .top, endPoint: .bottom),lineWidth: 25)
-                .frame(width: 640, height: 640)
-        }
-    }
-}
-
-
-struct Metro: Shape {
-    func path(in rect: CGRect) -> Path {
-        var path = Path()
-        path.move(to: CGPoint(x: 0, y: rect.midY))
-        path.addLine(to: CGPoint(x: rect.maxX, y: rect.midY-2))
-        path.addArc(center: CGPoint(x: rect.maxX, y: rect.midY), radius: 2, startAngle: .degrees(-90), endAngle: .degrees(90), clockwise: false)
-        path.addLine(to: CGPoint(x: 0, y: rect.midY))
-        return path
-    }
-}
-
-
-
-extension ShapeStyle where Self == Color {
-    static var darkPurple: Color {
-        Color(red: 66/255, green: 28/255, blue: 82/255)
-    }
-}
-
-
 
 
 struct TheGround: Shape {
@@ -161,5 +148,14 @@ struct Center: Shape {
         path.addLine(to: CGPoint(x: 0, y: rect.height*0.3))
         path.closeSubpath()
         return path
+    }
+}
+
+
+/// Custom color
+
+extension ShapeStyle where Self == Color {
+    static var darkPurple: Color {
+        Color(red: 66/255, green: 28/255, blue: 82/255)
     }
 }
